@@ -1,0 +1,17 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int i,n,sum=0;
+    printf("enter a natural number to find out sum of even natural no up to that number\n");
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {
+        i*i*i;
+      sum=sum+(i*i*i);
+    }
+    printf("the sum is %d",sum);
+
+    return 0;
+}
